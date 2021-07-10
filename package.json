@@ -1,0 +1,22 @@
+{
+  "name": "estebandlp",
+  "version": "1.0.0",
+  "description": "Hi! Nice to see you here.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebandlp/estebandlp.git"
+  },
+  "author": "estebandlp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estebandlp/estebandlp/issues"
+  },
+  "homepage": "https://github.com/estebandlp/estebandlp#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
