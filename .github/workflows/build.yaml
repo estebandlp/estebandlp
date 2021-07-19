@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout current repository to Main branch
-        uses: actions/checkout
+        uses: actions/checkout@v1
       - name: Setup NodeJs 14.x
         uses: actions/setup-node@v1
         with:
