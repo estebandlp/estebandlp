@@ -50,7 +50,5 @@
 
 ------------------------------------------------
 <p align="center">
-    This <i>README</i> file is generated <b>every 24 hours</b>!</br>Last refresh: Monday, July 19, 7:07 PM GMT-3 <br />
-    I want to thanks <a href="https://github.com/thmsgbrt">Thomas Guibert</a>, who through <a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91"> 
-    his post on Medium</a> helps me to create my own updating readme md!.
+    This <i>README</i> file is generated <b>every 24 hours</b>!</br>Last refresh: Monday, July 19, 7:08 PM GMT-3
 </p>
