@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout current repository to Main branch
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Setup NodeJs 14.x
         uses: actions/setup-node@v1
         with:
@@ -27,9 +27,9 @@ jobs:
         run: npm install
       - name: Generate README file
         run: node index.js
-      - name: Commit files
-        run: git commit -m "Create new Readme by Git Action" -a
-      - name: Push changes
-        uses: estebandlp/estebandlp@main
+      - name: Commit adn push
+        run: |
+            git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
+            git push origin || echo "No changes to commit"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
