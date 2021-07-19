@@ -27,7 +27,9 @@ jobs:
         run: npm install
       - name: Generate README file
         run: node index.js
-      - name: Commit and Push new README.md to the repository
-        uses: estebandlp/github-push-action@main
+      - name: Commit files
+        run: git commit -m "Create new Readme by Git Action" -a
+      - name: Push changes
+        uses: estebandlp/estebandlp@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
