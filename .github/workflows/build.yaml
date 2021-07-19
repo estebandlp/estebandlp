@@ -30,6 +30,6 @@ jobs:
       - name: Commit files
         run: git commit -m "Create new Readme by Git Action" -a
       - name: Push changes
-        uses: estebandlp/estebandlp@master
+        uses: estebandlp/estebandlp@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
