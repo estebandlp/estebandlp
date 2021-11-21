@@ -47,8 +47,3 @@
 </p>
 
 <p>I hope you have a great day 😊</p>
-
-------------------------------------------------
-<p align="center">
-    This <i>README</i> file is generated <b>every 24 hours</b>!</br>Last refresh: Monday, July 19, 7:08 PM GMT-3
-</p>
